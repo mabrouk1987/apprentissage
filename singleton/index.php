@@ -2,7 +2,7 @@
 
 require_once dirname(__FILE__).'/PresidentDeLaRepublique.php';
 
-$president = new PresidentDeLaRepublique('Abdelkarim', 'Mabrouk');
+$president = PresidentDeLaRepublique::getInstance('Abdelkarim', 'Mabrouk');
 
-var_dump($president);
+echo $president;
 
